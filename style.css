@@ -1,0 +1,44 @@
+@import url(../vendor/fonts/inter.css);
+
+body {
+    font-family: Inter, Arial, sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.title {
+    margin: 0 auto 20px;
+    line-height: 26px;
+    font-size: 22px;
+    width: 90%;
+    text-align: center;
+}
+
+.button {
+    padding: 0;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    background: linear-gradient(180deg, #9f12c2 0%, #c003c0 100%);
+    box-shadow: 0px 4px 25px rgba(146, 6, 146, 0.3);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    border: none;
+    padding: 0;
+    width: 173px;
+    height: 39px;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.img {
+    width: 100vw;
+    object-fit: contain;
+}
